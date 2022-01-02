@@ -1,0 +1,142 @@
+@media screen and (max-width: 1023px) {
+    footer {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        padding: 3rem 0 4rem 0;
+        background: $very-light-gray;
+
+        .footer_mobile {
+            position: absolute;
+            top: 0;
+            z-index: 0;
+            height: auto;
+        }
+
+        .footer_desktop {
+            display: none;
+        }
+
+        .logo_socials_wrapper {
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+            padding: 1.5rem 0 1.5rem 0;
+
+            ul {
+                list-style-type: none;
+                display: flex;
+                gap: 1rem;
+            }
+        }
+
+        hr {
+            width: 90%;
+            margin: auto;
+        }
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+            text-align: center;
+
+            h3 {
+                font-size: 1rem;
+                font-family: Karla, sans-serif;
+                color: $dark-grayish-violet;
+            }
+
+            ul {
+                list-style-type: none;
+                display: flex;
+                flex-direction: column;
+                gap: .75rem;
+
+                a {
+                    text-decoration: none;
+                    color: $dark-violet;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    footer {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        padding: 3rem 8rem;
+        background: $very-light-gray;
+
+        .footer_mobile {
+            display: none;
+        }
+
+        .footer_desktop {
+            z-index: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .logo_socials_wrapper {
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            ul {
+                list-style-type: none;
+                display: flex;
+                gap: .75rem;
+            }
+        }
+
+        nav {
+            display: flex;
+            gap: 5rem;
+            z-index: 1;
+
+            .links {
+                display: flex;
+                flex-direction: column;
+                gap: 1.25rem;
+
+                h3 {
+                    font-size: 1rem;
+                    font-family: Karla, sans-serif;
+                    color: $dark-grayish-violet;
+                }
+
+                ul {
+                    list-style-type: none;
+                    display: flex;
+                    flex-direction: column;
+                    gap: .75rem;
+    
+                    a {
+                        text-decoration: none;
+                        color: $dark-violet;
+                        font-weight: 700;
+                    }
+                }
+            }
+
+        }
+    }
+}
