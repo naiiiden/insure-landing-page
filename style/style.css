@@ -300,4 +300,116 @@ img {
     top: 30.25rem;
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .were_different {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 2rem;
+    padding: 5rem 1.5rem;
+  }
+  .were_different hr {
+    color: #837d87;
+    width: 40%;
+  }
+  .were_different h2, .were_different h3 {
+    color: #2b272f;
+  }
+  .were_different h2 {
+    font-size: 2rem;
+  }
+  .were_different .sections_flex_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 3rem;
+  }
+  .were_different .subsection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+  .were_different .subsection p {
+    color: #837d87;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .were_different {
+    margin: 11rem 0;
+    padding: 2rem 8rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 4rem;
+  }
+  .were_different hr {
+    width: 10rem;
+  }
+  .were_different h2 {
+    font-size: 4rem;
+    color: #2b272f;
+  }
+  .were_different .sections_flex_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .were_different .sections_flex_container .subsection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    text-align: flex-start;
+    gap: 1rem;
+    width: 31%;
+  }
+  .were_different .sections_flex_container .subsection h3 {
+    color: #2b272f;
+  }
+  .were_different .sections_flex_container .subsection p {
+    color: #837d87;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .subsection p {
+    font-size: 1.1rem;
+    width: 80%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
