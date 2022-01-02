@@ -508,7 +508,7 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
     padding: 3rem 0 4rem 0;
     background: #fafafa;
   }
@@ -534,7 +534,6 @@ img {
         -ms-flex-align: center;
             align-items: center;
     gap: 2rem;
-    padding: 1.5rem 0 1.5rem 0;
   }
   footer .logo_socials_wrapper ul {
     list-style-type: none;
@@ -604,7 +603,7 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
     padding: 3rem 8rem;
     background: #fafafa;
   }
