@@ -75,10 +75,22 @@
                 color: $dark-grayish-violet;
                 font-weight: 700;
 
+                &:hover {
+                    color: $very-dark-violet;
+                    transition: 0.2s ease;
+                    text-decoration: underline;
+                }
+
                 &.plans {
-                    border: .15rem solid #000;
+                    border: .15rem solid $very-dark-violet;
                     padding: .5rem 1rem;
                     color: $dark-violet;
+
+                    &:hover {
+                        background: $very-dark-violet;
+                        color: #fff;
+                        transition: 0.2s ease;
+                    }
                 }
             }
         }

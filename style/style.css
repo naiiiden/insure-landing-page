@@ -115,10 +115,22 @@ img {
     color: #837d87;
     font-weight: 700;
   }
+  header .nav-ul a:hover {
+    color: #2b272f;
+    -webkit-transition: 0.2s ease;
+    transition: 0.2s ease;
+    text-decoration: underline;
+  }
   header .nav-ul a.plans {
-    border: .15rem solid #000;
+    border: 0.15rem solid #2b272f;
     padding: .5rem 1rem;
     color: #2d2640;
+  }
+  header .nav-ul a.plans:hover {
+    background: #2b272f;
+    color: #fff;
+    -webkit-transition: 0.2s ease;
+    transition: 0.2s ease;
   }
 }
 
@@ -238,6 +250,12 @@ img {
     color: #fff;
     padding: .5rem 1rem;
     width: 10rem;
+  }
+  main .text_container button:hover {
+    background: #fff;
+    color: #2b272f;
+    -webkit-transition: 0.2s ease;
+    transition: 0.2s ease;
   }
   main .image_container {
     position: relative;
@@ -490,6 +508,13 @@ img {
     right: 0;
     height: 100%;
   }
+  .call_to_action section button:hover {
+    z-index: 1;
+    background: #fff;
+    color: #2b272f;
+    -webkit-transition: 0.2s ease;
+    transition: 0.2s ease;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -635,6 +660,15 @@ img {
     display: flex;
     gap: .75rem;
   }
+  footer .logo_socials_wrapper .socials svg {
+    fill: #837D88;
+    cursor: pointer;
+  }
+  footer .logo_socials_wrapper .socials svg:hover {
+    fill: #2b272f;
+    -webkit-transition: 0.2s ease;
+    transition: 0.2s ease;
+  }
   footer nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -672,6 +706,9 @@ img {
     text-decoration: none;
     color: #2d2640;
     font-weight: 700;
+  }
+  footer nav .links ul a:hover {
+    text-decoration: underline;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -64,6 +64,13 @@
                 right: 0;
                 height: 100%;
             }
+
+            button:hover {
+                z-index: 1;
+                background: #fff;
+                color: $very-dark-violet;
+                transition: 0.2s ease;
+            }
         }
     }
 }

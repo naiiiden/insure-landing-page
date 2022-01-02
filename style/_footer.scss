@@ -104,6 +104,18 @@
                 display: flex;
                 gap: .75rem;
             }
+
+            .socials {
+                svg {
+                    fill: #837D88;
+                    cursor: pointer;
+                    
+                    &:hover {
+                        fill: $very-dark-violet;
+                        transition: 0.2s ease;
+                    }
+                }
+            }
         }
 
         nav {
@@ -132,6 +144,10 @@
                         text-decoration: none;
                         color: $dark-violet;
                         font-weight: 700;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
                     }
                 }
             }
