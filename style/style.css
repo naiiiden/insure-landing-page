@@ -85,7 +85,7 @@ img {
   }
   header .nav-ul a {
     text-decoration: none;
-    color: hsl(273deg, 4%, 51%);
+    color: #5A565D;
     font-weight: 700;
   }
   header .nav-ul a:hover {
