@@ -28,6 +28,10 @@ img {
   pointer-events: none;
 }
 
+p {
+  line-height: 1.5;
+}
+
 @media screen and (max-width: 1023px) {
   header {
     padding: 1.5rem;
