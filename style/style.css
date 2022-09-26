@@ -448,7 +448,7 @@ img {
     gap: 1.25rem;
     text-align: center;
   }
-  nav .links h3 {
+  nav .links h4 {
     font-size: 1rem;
     font-family: Karla, sans-serif;
     color: hsl(273deg, 4%, 51%);
@@ -512,7 +512,7 @@ img {
     flex-direction: column;
     gap: 1.25rem;
   }
-  footer nav .links h3 {
+  footer nav .links h4 {
     font-size: 1rem;
     font-family: Karla, sans-serif;
     color: hsl(273deg, 4%, 51%);
