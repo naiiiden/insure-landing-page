@@ -288,7 +288,7 @@ img {
     gap: 1rem;
   }
   .were_different .subsection p {
-    color: hsl(273deg, 4%, 51%);
+    color: #59565D;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -322,7 +322,7 @@ img {
     color: hsl(270deg, 9%, 17%);
   }
   .were_different .sections_flex_container .subsection p {
-    color: hsl(273deg, 4%, 51%);
+    color: #59565D;
   }
 }
 @media screen and (min-width: 1440px) {
