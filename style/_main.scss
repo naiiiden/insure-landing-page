@@ -3,7 +3,7 @@
         display: none;
     }
 
-    main {
+    .main {
         position: relative;
         display: flex;
         flex-direction: column;
@@ -65,7 +65,7 @@
         display: none;
     }
 
-    main {
+    .main {
         display: flex;
         flex-direction: row-reverse;
         background: $dark-violet;
@@ -140,7 +140,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-    main {
+    .main {
         .text_container {
             width: 50%;
             display: flex;
