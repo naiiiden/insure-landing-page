@@ -451,7 +451,7 @@ img {
   nav .links h4 {
     font-size: 1rem;
     font-family: Karla, sans-serif;
-    color: hsl(273deg, 4%, 51%);
+    color: #5A565D;
   }
   nav .links ul {
     list-style-type: none;
@@ -515,7 +515,7 @@ img {
   footer nav .links h4 {
     font-size: 1rem;
     font-family: Karla, sans-serif;
-    color: hsl(273deg, 4%, 51%);
+    color: #5A565D;
   }
   footer nav .links ul {
     list-style-type: none;
